@@ -269,6 +269,10 @@ The following wireless configuration is applied consistently across the headquar
 Multiple enterprise-grade wireless access points are deployed across the headquarters to ensure complete coverage of office areas, meeting rooms, and common spaces. Access points are strategically positioned to minimise signal overlap and dead zones.
 
 The 5 GHz band is prioritised for staff devices to achieve higher throughput and reduced interference, while the 2.4 GHz band is available for legacy or low-bandwidth devices.
+### Headquarters Network Diagram
+![Headquarters Network Diagram](diagrams/HQ.png)
+
+
 
 Justification:  
 This approach ensures reliable wireless performance for a high number of users while maintaining compatibility with different device types.
@@ -278,6 +282,8 @@ This approach ensures reliable wireless performance for a high number of users w
 ### Branch Office Wireless Design
 
 Branch offices deploy a smaller number of wireless access points based on office size and user density. The same SSID name and security configuration are used to maintain consistency across all locations.
+### Branch Office Network Diagram
+![Branch Office Network Diagram](diagrams/Branch.png)
 
 Justification:  
 Using a standardised wireless configuration simplifies management, reduces configuration errors, and ensures a consistent user experience for staff across headquarters and branch offices.
