@@ -297,3 +297,35 @@ These measures reduce the risk of wireless-based attacks and ensure that only au
 
 The proposed wireless design delivers secure, scalable, and high-performance connectivity suitable for a medium-sized enterprise. The design supports current operational requirements while allowing for future expansion as the number of wireless devices increases.
 
+
+
+
+##  Design Justification and Summary
+
+This section provides an overall justification of the proposed network design and summarises how the design meets the organisational and technical requirements outlined in the project scenario.
+
+---
+
+### Design Justification
+
+The proposed network design for Truelec has been developed with a strong focus on reliability, scalability, simplicity, and operational efficiency.
+
+A hierarchical network architecture has been implemented at the headquarters to clearly separate the edge, core, and access layers. This structure simplifies network management, improves fault isolation, and allows the network to scale easily as the organisation grows. Redundancy has been incorporated at critical points, particularly through dual internet connections at the headquarters, ensuring continued availability of services in the event of link or provider failure.
+
+Branch office networks are designed as simplified yet secure extensions of the headquarters network. Secure site-to-site VPN connectivity enables branches to access centralised services while protecting data transmitted over public networks. This approach balances cost efficiency with security and operational needs.
+
+The IP addressing scheme follows a logical and structured format that separates wired, wireless, server, and security device networks. This improves network clarity, simplifies troubleshooting, and supports future expansion without requiring major reconfiguration.
+
+Wireless networking has been designed using enterprise-grade access points and secure authentication mechanisms. Dual-band operation ensures high performance while maintaining compatibility with different device types. Consistent wireless configuration across all locations reduces administrative complexity and enhances the user experience.
+
+Enterprise-grade hardware has been selected to ensure long-term reliability, security, and compatibility across the organisation. Using similar vendor platforms for headquarters and branch offices simplifies configuration, monitoring, and maintenance.
+
+---
+
+### Design Summary
+
+The proposed network design provides a robust and scalable solution suitable for a medium-sized Australian organisation with multiple branch locations. The design supports current operational requirements while allowing for future growth, improved reliability, and secure communication between sites.
+
+Overall, the network architecture delivers a balanced combination of performance, security, and manageability, making it well suited to support Truelec’s ongoing business operations and strategic expansion.
+
+
