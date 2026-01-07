@@ -39,3 +39,61 @@ For this project, a detailed network design is provided for one branch office. I
 
 Justification:  
 Branch offices are expected to have comparable operational requirements. Designing a single branch network provides a scalable and repeatable model that can be consistently applied to other branch locations.
+
+
+
+
+
+
+
+
+## 4.1.2 IP Addressing Plan
+
+A structured IP addressing scheme has been designed to support the headquarters and branch office networks. The addressing plan ensures logical separation of network segments, scalability, and ease of management. All IP address ranges comply with the project requirements, using only /16 or /24 network masks, and the first octet of all IP addresses is based on the last two digits of a group member’s student ID.
+
+### IP Addressing Design Principles
+
+The following principles were applied when designing the IP addressing scheme:
+- Clear separation between headquarters and branch office networks
+- Dedicated address ranges for servers and wireless networks
+- Use of summarised address blocks to allow future expansion
+- Compliance with public-style addressing, avoiding private IP ranges
+
+---
+
+### Headquarters IP Address Allocation
+
+| Network Segment | Purpose | IP Address Range | Subnet Mask |
+|-----------------|---------|------------------|-------------|
+| HQ Wired LAN | Wired user devices and office systems | 22.10.0.0/16 | 255.255.0.0 |
+| HQ Wireless LAN | Staff wireless devices | 22.20.0.0/24 | 255.255.255.0 |
+| HQ Server Network | Internal servers and application services | 22.30.0.0/24 | 255.255.255.0 |
+| HQ Security Devices | CCTV, IoT sensors, RFID access systems | 22.40.0.0/24 | 255.255.255.0 |
+
+Justification:  
+A /16 network has been allocated to the headquarters wired LAN to support a larger number of devices and allow future growth. Separate /24 networks are used for wireless access, servers, and security devices to improve organisation, manageability, and fault isolation.
+
+---
+
+### Branch Office IP Address Allocation
+
+| Network Segment | Purpose | IP Address Range | Subnet Mask |
+|-----------------|---------|------------------|-------------|
+| Branch Wired LAN | Branch office wired devices | 22.50.0.0/24 | 255.255.255.0 |
+| Branch Wireless LAN | Branch staff wireless devices | 22.60.0.0/24 | 255.255.255.0 |
+
+Justification:  
+Each branch office is assigned separate /24 networks for wired and wireless connectivity. This provides sufficient address space for branch operations while maintaining simplicity and consistency across branch locations.
+
+---
+
+### Scalability and Future Expansion
+
+The IP addressing scheme allows additional networks and devices to be added without major restructuring. Additional branch offices can be allocated new /24 networks following the same addressing pattern, ensuring consistency across the organisation.
+
+---
+
+### Summary
+
+This IP addressing plan provides a logical, scalable, and standards-compliant structure for the organisation’s network. It supports current operational requirements while allowing for future expansion and simplified network management.
+
