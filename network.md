@@ -195,3 +195,38 @@ This approach balances cost and reliability, ensuring high availability where it
 
 The proposed network architecture provides a reliable, scalable, and easy-to-manage solution for the organisation. The hierarchical design, combined with redundancy at the headquarters and secure connectivity for branch offices, ensures continuous availability of services and supports future growth.
 
+
+
+
+## Hardware Selection and Specifications
+
+This section lists the recommended network hardware for the headquarters and branch office. The selected devices are enterprise-grade, support redundancy and scalability, and are suitable for a medium-sized organisation. All prices are indicative and listed in Australian Dollars (AUD).
+
+---
+
+### Headquarters Network Hardware
+
+| Device Type | Recommended Model | Minimum Specifications | Approx. Price (AUD) | Justification |
+|------------|------------------|------------------------|---------------------|---------------|
+| Edge Router | Cisco ISR 4331 | Dual WAN support, Gigabit Ethernet, VPN support | $4,500 | Supports dual ISP links, secure WAN connectivity, and scalable performance for headquarters traffic |
+| Firewall | Fortinet FortiGate 60F | Stateful firewall, IPS, VPN, application control | $2,200 | Provides strong perimeter security, threat prevention, and secure remote connectivity |
+| Core Switch | Cisco Catalyst 9300 | 24–48 Gigabit ports, Layer 3 support | $6,000 | High-performance backbone switch suitable for enterprise core networking |
+| Access Switch | Cisco Catalyst 9200 | 24 Gigabit ports, PoE support | $3,200 | Reliable access-layer switching with PoE support for wireless access points |
+| Wireless Access Point | Cisco Meraki MR36 | Dual-band WiFi 6, central management | $1,800 | Provides high-performance and secure wireless coverage for staff devices |
+
+---
+
+### Branch Office Network Hardware
+
+| Device Type | Recommended Model | Minimum Specifications | Approx. Price (AUD) | Justification |
+|------------|------------------|------------------------|---------------------|---------------|
+| Branch Router | Cisco ISR 1100 Series | Integrated firewall, VPN support | $1,800 | Suitable for small branch connectivity with secure VPN access to headquarters |
+| Access Switch | Cisco Catalyst 9200 | 24 Gigabit ports, PoE support | $3,200 | Provides reliable wired connectivity for branch staff and devices |
+| Wireless Access Point | Cisco Meraki MR36 | Dual-band WiFi 6 | $1,800 | Ensures consistent wireless performance across headquarters and branch locations |
+
+---
+
+### Hardware Selection Summary
+
+The selected hardware supports high availability, secure communication, and future scalability. Enterprise-grade devices have been chosen to ensure reliability, consistent performance, and compatibility across headquarters and branch networks. Using similar vendors across the organisation simplifies management, configuration, and long-term maintenance.
+
