@@ -230,3 +230,70 @@ This section lists the recommended network hardware for the headquarters and bra
 
 The selected hardware supports high availability, secure communication, and future scalability. Enterprise-grade devices have been chosen to ensure reliability, consistent performance, and compatibility across headquarters and branch networks. Using similar vendors across the organisation simplifies management, configuration, and long-term maintenance.
 
+
+
+
+## Wireless Network Design
+
+This section describes the wireless network design for the headquarters and branch office. The wireless network is designed to provide secure, reliable, and high-performance connectivity for staff while supporting mobility and scalability.
+
+---
+
+### Wireless Network Requirements
+
+The wireless network must support:
+- Staff laptops, tablets, and mobile devices
+- Secure authentication and encryption
+- Reliable coverage across office areas
+- Minimal interference and optimal performance
+
+---
+
+### Wireless Network Configuration
+
+The following wireless configuration is applied consistently across the headquarters and branch offices.
+
+| Parameter | Configuration |
+|---------|---------------|
+| SSID Name | Truelec-Staff |
+| Security Protocol | WPA3-Enterprise (fallback to WPA2 if required) |
+| Authentication | Centralised authentication using secure credentials |
+| Frequency Bands | Dual-band operation (2.4 GHz and 5 GHz) |
+| Channel Allocation | Automatic channel selection to reduce interference |
+| IP Assignment | DHCP from designated wireless IP subnet |
+
+---
+
+### Headquarters Wireless Design
+
+Multiple enterprise-grade wireless access points are deployed across the headquarters to ensure complete coverage of office areas, meeting rooms, and common spaces. Access points are strategically positioned to minimise signal overlap and dead zones.
+
+The 5 GHz band is prioritised for staff devices to achieve higher throughput and reduced interference, while the 2.4 GHz band is available for legacy or low-bandwidth devices.
+
+Justification:  
+This approach ensures reliable wireless performance for a high number of users while maintaining compatibility with different device types.
+
+---
+
+### Branch Office Wireless Design
+
+Branch offices deploy a smaller number of wireless access points based on office size and user density. The same SSID name and security configuration are used to maintain consistency across all locations.
+
+Justification:  
+Using a standardised wireless configuration simplifies management, reduces configuration errors, and ensures a consistent user experience for staff across headquarters and branch offices.
+
+---
+
+### Wireless Security Considerations
+
+Wireless traffic is logically separated from wired traffic using a dedicated wireless IP address range. Strong encryption and secure authentication mechanisms are enforced to protect against unauthorised access.
+
+Justification:  
+These measures reduce the risk of wireless-based attacks and ensure that only authorised staff devices can access internal network resources.
+
+---
+
+### Wireless Design Summary
+
+The proposed wireless design delivers secure, scalable, and high-performance connectivity suitable for a medium-sized enterprise. The design supports current operational requirements while allowing for future expansion as the number of wireless devices increases.
+
