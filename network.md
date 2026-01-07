@@ -47,7 +47,7 @@ Branch offices are expected to have comparable operational requirements. Designi
 
 
 
-## 4.1.2 IP Addressing Plan
+## IP Addressing Plan
 
 A structured IP addressing scheme has been designed to support the headquarters and branch office networks. The addressing plan ensures logical separation of network segments, scalability, and ease of management. All IP address ranges comply with the project requirements, using only /16 or /24 network masks, and the first octet of all IP addresses is based on the last two digits of a group member’s student ID.
 
@@ -96,4 +96,102 @@ The IP addressing scheme allows additional networks and devices to be added with
 ### Summary
 
 This IP addressing plan provides a logical, scalable, and standards-compliant structure for the organisation’s network. It supports current operational requirements while allowing for future expansion and simplified network management.
+
+
+
+
+
+
+## Network Architecture Design
+
+This section describes the proposed network architecture for the headquarters and one branch office. The design focuses on reliability, scalability, and simplicity, while ensuring continuous availability of critical services.
+
+---
+
+### Headquarters Network Architecture
+
+The headquarters network is designed using a hierarchical network architecture consisting of an edge layer, core layer, and access layer. This approach improves manageability, fault isolation, and scalability.
+
+#### Internet Connectivity and Edge Layer
+The headquarters is connected to the internet using two independent ISP links, a primary and a secondary connection. These links terminate at an enterprise-grade edge router that supports dual-WAN connectivity and automatic failover.
+
+A dedicated firewall is deployed between the edge router and the internal network. The firewall is responsible for traffic filtering, access control, and protection against external threats.
+
+Justification:  
+Dual ISP links ensure high availability, while the firewall provides a security boundary between external networks and internal systems.
+
+---
+
+#### Core and Access Layer
+A core switch acts as the backbone of the headquarters network and connects all major network segments, including access switches, servers, and security systems.
+
+Multiple access switches are connected to the core switch to support wired user devices such as desktop computers, printers, and office equipment.
+
+Justification:  
+Separating the core and access layers reduces network congestion and simplifies future expansion by allowing additional access switches to be added without redesigning the network.
+
+---
+
+#### Server and Internal Services Network
+A dedicated server network segment is used to host internal services, including HR systems, accounting software, CRM systems, and the organisation’s booking application.
+
+Servers are connected directly to the core switch to ensure high-speed and reliable access from all departments.
+
+Justification:  
+Centralising servers within a dedicated network segment improves performance, security, and ease of management.
+
+---
+
+#### Wireless Network Architecture
+Enterprise-grade wireless access points are deployed throughout the headquarters to provide wireless connectivity for staff devices. Access points are connected to access switches and centrally managed.
+
+Wireless traffic is logically separated from wired traffic using a dedicated wireless IP range.
+
+Justification:  
+This design ensures seamless mobility for staff while maintaining control over wireless access and performance.
+
+---
+
+#### Security Devices Network
+Security-related devices such as CCTV cameras, IoT sensors, and RFID access control systems are connected to a dedicated security network segment.
+
+Justification:  
+Isolating security devices improves monitoring, simplifies troubleshooting, and reduces the impact of potential faults or security incidents.
+
+---
+
+### Branch Office Network Architecture
+
+The branch office network is designed as a simplified version of the headquarters network while maintaining consistency and security.
+
+#### Branch Connectivity
+Each branch office connects to the internet using a single ISP link terminated at a branch router with integrated firewall functionality. A secure site-to-site VPN tunnel is established between the branch router and the headquarters firewall.
+
+Justification:  
+The VPN ensures secure communication between branch offices and the headquarters over the public internet.
+
+---
+
+#### Branch Internal Network
+The branch router connects to a local access switch that supports wired devices. Wireless access points provide WiFi connectivity for branch staff.
+
+Wired and wireless devices are assigned separate IP address ranges, consistent with the overall IP addressing scheme.
+
+Justification:  
+This structure provides sufficient capacity for branch operations while maintaining simplicity and standardisation across locations.
+
+---
+
+### Redundancy and Reliability Considerations
+
+Redundancy is implemented at the headquarters level through dual internet connections and robust core infrastructure. Branch offices rely on stable ISP connectivity and secure VPN links to access central resources.
+
+Justification:  
+This approach balances cost and reliability, ensuring high availability where it is most critical while maintaining efficient branch operations.
+
+---
+
+### Design Summary
+
+The proposed network architecture provides a reliable, scalable, and easy-to-manage solution for the organisation. The hierarchical design, combined with redundancy at the headquarters and secure connectivity for branch offices, ensures continuous availability of services and supports future growth.
 
