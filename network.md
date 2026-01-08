@@ -49,7 +49,7 @@ A site-to-site VPN connects the branch office securely to the headquarters, allo
 The following diagrams illustrate the proposed designs. Editable draw.io files are included in the repository.
 
 ### Headquarters Network Diagram
-![Headquarters Network Diagram](diagrams/HQ.png)
+![Headquarters Network Diagram](diagrams/HQ1.png)
 
 - Editable diagram file: `diagrams/HQ.drawio`
 
