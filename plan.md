@@ -1,64 +1,44 @@
 # Project Plan
+This section presents the initial plan for the project.
+
+[Communication](#communication-plan) | [Schedule](#schedule) | [Network Design](./network.md) | [Cloud Services](./cloud.md) | [Security](./security.md) | [Ethics](./ethics.md) | [Reflection](./reflection.md) | [Return to index](./README.md)
+
+---
 
 ## Communication Plan
 
-Effective communication is essential to ensure successful collaboration throughout the project. The group has agreed on the following communication methods and frequency to coordinate tasks, discuss progress, and resolve issues.
+Effective communication is essential to ensure successful collaboration throughout the project. The group uses multiple communication channels to coordinate tasks, discuss progress, and resolve technical or scheduling issues in a timely manner.
 
-### Communication Methods
-- WhatsApp group for quick updates and daily coordination  
-- Zoom meetings for detailed discussions and design decisions  
-- GitHub for technical collaboration, version control, and progress tracking  
+The following communication methods are used:
+- WhatsApp group for quick updates and day-to-day coordination  
+- Zoom meetings for detailed discussions, planning, and design decisions  
+- GitHub for technical collaboration, version control, and tracking individual contributions  
 
-### Communication Frequency
-- Informal communication via WhatsApp as required  
-- Scheduled Zoom meetings twice per week  
-- Additional meetings arranged if required before key milestones  
-
-This communication approach ensures timely coordination while allowing flexibility around academic schedules.
+Informal communication occurs as required, while structured Zoom meetings are conducted regularly. Additional meetings are scheduled when approaching key milestones to ensure the project remains on track.
 
 ---
 
-## Project Schedule
+## Schedule
 
-The following schedule outlines the planned timeline for completing Project Part 1 and Project Part 2. Tasks are distributed evenly across the project duration to ensure consistent progress and regular GitHub commits.
+The plan of tasks for each group member for the remainder of the project is:
 
-### Planned Schedule
+- **Week 5:**  
+  Finalise project assumptions, IP addressing plan, and begin network architecture design.
 
-| Week | Planned Tasks |
-|------|---------------|
-| Week 3 | Group formation, GitHub repository setup, communication planning |
-| Week 4 | Assumptions finalisation and IP addressing plan |
-| Week 5 | Network architecture design and initial network diagrams |
-| Week 6 | Hardware selection, wireless network design, documentation for Project Part 1 |
-| Week 7 | Final review and submission of Project Part 1 |
-| Week 8 | Cloud service evaluation and cost analysis |
-| Week 9 | Cybersecurity risk assessment and security control recommendations |
-| Week 10 | Ethical and social issues analysis |
-| Week 11 | Project reflection, commit review, and report finalisation |
-| Week 12 | Recorded presentation preparation and submission of Project Part 2 |
+- **Week 6:**  
+  Complete detailed network design, hardware selection, wireless design, and network diagrams for Project Part 1.
 
----
+- **Week 7:**  
+  Review, refine, and submit Project Part 1 documentation and diagrams.
 
-## Task Allocation Strategy
+- **Week 8:**  
+  Evaluate cloud service options, configure cloud virtual machines, and perform cost analysis.
 
-All group members contribute to all stages of the project. However, specific responsibilities may vary depending on individual strengths and availability. Technical design, documentation, and review activities are shared to ensure balanced contribution and learning outcomes.
+- **Week 9:**  
+  Conduct cyber security risk assessment, complete the risk assessment spreadsheet, and recommend security controls.
 
-GitHub commits are used as the primary mechanism to track individual contributions. Each group member commits their own work regularly, ensuring transparency and compliance with professional project practices.
+- **Week 10:**  
+  Analyse ethical and social issues related to data protection, privacy, and cyber security. Begin project reflection documentation.
 
----
-
-## Risk Management and Contingency Planning
-
-To minimise project risks, the group follows these strategies:
-- Regular progress checks during scheduled meetings  
-- Early identification of technical or scheduling issues  
-- Use of GitHub for backup and version control  
-- Flexibility in task allocation if workload imbalance occurs  
-
-These measures help ensure the project remains on schedule and meets assessment requirements.
-
----
-
-## Summary
-
-This project plan establishes a structured approach to communication, scheduling, and task coordination. By following this plan, the group ensures professional collaboration, consistent progress, and timely completion of all assessment deliverables.
+- **Week 11:**  
+  Finalise reflection, review GitHub contributions, prepare recorded presentation, and submit the complete project.
