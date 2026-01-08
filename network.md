@@ -86,12 +86,12 @@ The following address allocations are used:
 
 | Network Segment | IP Address Range |
 |----------------|------------------|
-| Headquarters Wired LAN | 22.10.0.0/16 |
-| Headquarters Wireless LAN | 22.20.0.0/24 |
-| Server Network | 22.30.0.0/24 |
-| Security Devices Network | 22.40.0.0/24 |
-| Branch Wired LAN | 22.50.0.0/24 |
-| Branch Wireless LAN | 22.60.0.0/24 |
+| Headquarters Wired LAN | 14.10.0.0/16 |
+| Headquarters Wireless LAN | 39.20.0.0/24 |
+| Server Network | 14.30.0.0/24 |
+| Security Devices Network | 39.40.0.0/24 |
+| Branch Wired LAN | 14.50.0.0/24 |
+| Branch Wireless LAN | 39.60.0.0/24 |
 
 This structured addressing scheme simplifies network management, supports scalability, and avoids address conflicts across different network segments.
 
