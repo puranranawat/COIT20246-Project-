@@ -51,12 +51,12 @@ The following diagrams illustrate the proposed designs. Editable draw.io files a
 ### Headquarters Network Diagram
 ![Headquarters Network Diagram](diagrams/HQ1.png)
 
-- Editable diagram file: `diagrams/HQ.drawio`
+- Editable diagram file: `diagrams/HQ1.drawio`
 
 ### Branch Office Network Diagram
-![Branch Office Network Diagram](diagrams/Branch.png)
+![Branch Office Network Diagram](diagrams/Branch1.png)
 
-- Editable diagram file: `diagrams/Branch.drawio`
+- Editable diagram file: `diagrams/Branch1.drawio`
 
 ---
 
