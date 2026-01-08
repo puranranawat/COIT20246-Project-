@@ -1,7 +1,7 @@
 # COIT20246 Networking and Cyber Security Project
 
 - Group Number: 080503
-- Student 1: PRANAY SAKETH REDDY THUMMA (12315514)
+- Student 1: MINE (12315514)
 - Student 2: AKHIL VAVINTAPARTHI (12314139)
 - Campus: MELBOURNE
 - Tutor: MR DAVID LING
